@@ -6,6 +6,7 @@ class Book(Item):
         super().__init__(title, author, item_id)
         self.isbn = isbn
         self.genre = genre
+        self.in_library = True
 
     def display_info(self):
         print(f"Title: {self.title}")
@@ -13,3 +14,4 @@ class Book(Item):
         print(f"ID: {self.item_id}")
         print(f"ISBN: {self.isbn}")
         print(f"Genre: {self.genre}")
+        print(f"In Library: {self.in_library}")
