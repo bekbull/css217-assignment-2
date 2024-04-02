@@ -49,28 +49,14 @@ Before you begin, ensure you have Python 3 installed on your system. You can dow
      .\venv\Scripts\activate
      ```
 
-   You'll know the virtual environment is activated because your command prompt will change to show the name of the virtual environment. It will look something like `(venv) user@hostname:~/library-management-system$`.
-
-4. **Install Required Packages**
-
-   With your virtual environment active, install the required packages using `pip`. The required packages should be listed in a `requirements.txt` file. If your project doesn't have many dependencies, you could manually install them as needed.
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   or if there are no specific dependencies:
-
-   ```bash
-   pip install some-package-name
-   ```
+   You'll know the virtual environment is activated because your command prompt will change to show the name of the virtual environment. It will look something like `(venv) user@hostname:~/220107088_assignment_2$`.
 
 ### Running the Application
 
 With the setup complete, you can now run the application:
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 ## Using the Application
@@ -88,14 +74,7 @@ deactivate
 
 This will return you to your system's default Python interpreter.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://your-repository-url/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
----
-
-Replace placeholders like `https://your-repository-url.git` with your actual repository URL and adjust the instructions as needed based on your project's requirements and setup.
